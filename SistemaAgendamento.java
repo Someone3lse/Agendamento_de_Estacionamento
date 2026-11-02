@@ -11,7 +11,7 @@ public class SistemaAgendamento {
             throw new IllegalArgumentException("Preencha todos os dados do agendamento.");
         }
         if (!vaga.estaDisponivel()) {
-            throw new IllegalStateException("A vaga está ocupada.");
+            throw new IllegalStateException("A vaga esta ocupada.");
         }
 
         vaga.reservar();

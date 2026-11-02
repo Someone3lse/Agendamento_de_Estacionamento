@@ -18,7 +18,7 @@ public class TesteIntegracao {
         verificar("CANCELADO".equals(agendamento.getStatus()), "O agendamento deveria ser cancelado.");
         verificar(vaga.estaDisponivel(), "A vaga deveria ter sido liberada.");
 
-        System.out.println("Teste de integração aprovado!");
+        System.out.println("Teste de integracao aprovado!");
     }
 
     private static void verificar(boolean condicao, String mensagem) {

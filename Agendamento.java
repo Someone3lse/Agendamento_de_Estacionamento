@@ -28,10 +28,10 @@ public class Agendamento {
 
     public String mostrarDetalhes() {
         DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
-        return "Código: " + id
-                + "\nUsuário: " + usuario.getNome()
+        return "Codigo: " + id
+                + "\nUsuario: " + usuario.getNome()
                 + "\nVaga: " + vaga.getNumero()
-                + "\nData e horário: " + dataHora.format(formato)
+                + "\nData e horario: " + dataHora.format(formato)
                 + "\nStatus: " + status;
     }
 }

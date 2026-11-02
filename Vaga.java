@@ -17,7 +17,7 @@ public class Vaga {
 
     public void reservar() {
         if (!disponivel) {
-            throw new IllegalStateException("A vaga já está ocupada.");
+            throw new IllegalStateException("A vaga ja esta ocupada.");
         }
         disponivel = false;
     }

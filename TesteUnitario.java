@@ -6,9 +6,9 @@ public class TesteUnitario {
         verificar(!vaga.estaDisponivel(), "A vaga deveria estar reservada.");
 
         vaga.liberar();
-        verificar(vaga.estaDisponivel(), "A vaga deveria estar disponível.");
+        verificar(vaga.estaDisponivel(), "A vaga deveria estar disponivel.");
 
-        System.out.println("Teste unitário aprovado!");
+        System.out.println("Teste unitario aprovado!");
     }
 
     private static void verificar(boolean condicao, String mensagem) {
